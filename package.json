@@ -2,6 +2,9 @@
 	"name": "myAppServer",
 	"version": "1.1.1",
 	"description": "Server for Socket.IO app",
+	"scripts": {
+		"start": "node index.js"
+		},
 	"dependencies": {
 		"express": "3.4.8",
 		"socket.io": "^1.3.2",
